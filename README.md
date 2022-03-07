@@ -1,3 +1,5 @@
+Utility App is a combination of multiple tools like IP address, Color Converter, Time Converter etc., built using single page web application called React JS.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
