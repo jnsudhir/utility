@@ -1,38 +1,362 @@
-.App {
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.encode-decode {
+  border-radius: 10px;
+  display: flex;
+  margin: 1cm;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.5cm;
+}
+textarea:focus {
+  color: black;
+  background-color: rgb(192, 214, 214);
+}
+.encodeDecode-textArea {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 6cm;
+  height: 4cm;
+  border-radius: 10px;
+  border-color: black;
+}
+.encode-decodeBtn {
+  height: 1cm;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  margin: 0.6cm;
+  width: 2cm;
+  
+}
+.rgbCode{
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+  margin: 5px;
+
+
+}
+.rgbHeading{
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+}
+.hexToRGB-btn{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin: 9px;
+}
+.rgbOutput{
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+  margin: 10px;
+
+}
+.hexCode-heading{
+  text-align: center;
+}
+.hexCode{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+  margin: 10px;
+  
+
+}
+.redValue, .greenValue , .blueValue{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+  margin: 10px;
+}
+.rgbHeading{
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hexToRGBOutput{
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+  margin: 10px;
+  
+}
+.md5Btn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 65px;
+  align-items: center;
+}
+#qw {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 5cm;
+  height: 1cm;
+  padding: 0.5cm;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.output-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid rgb(0, 0, 0);
+  width: 2.2cm;
+  border-radius: 8px;
+  margin: 0.3cm;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  align-items: center;
+  height: 2cm;
+  width: 2cm;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+.redlabel {
+  color: red;
+  font-size: medium;
+  font-weight: bolder;
+}
+.greenlabel {
+  color: green;
+  font-size: medium;
+  font-weight: bolder;
+}
+.bluelabel {
+  color: blue;
+  font-size: medium;
+  font-weight: bolder;
+}
+.rgb-hex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 1cm;
+  padding: 1cm;
+  align-items: center;
+}
+/* .rgb-text-box{
+    width: 4cm;
+    height: 0.5cm;
+    border-color: black;
+    border-radius: 6px;
+    border-width: 0.06cm;
+
+} */
+.red-text-box {
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+}
+.green-text-box {
+  width: 4cm;
+  height: 0.5cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+}
+.blue-text-box {
+  width: 4.3cm;
+  height: 0.45cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+}
+.rgb-button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.rgb-text-box {
+  width: 3cm;
+  height: 0.4cm;
+  border-color: black;
+  border-radius: 6px;
+  border-width: 0.06cm;
+}
+.result-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid rgb(0, 0, 0);
+  width: 2.2cm;
+  border-radius: 8px;
+  margin: 0.3cm;
+  align-items: center;
+  justify-content: center;
+}
+.rgbResult {
+  align-items: center;
+  height: 2cm;
+  width: 2cm;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+.fcontainer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.DectoBinary,
+.DectoH,
+.DectoOctal,
+.BintoDec,
+.BintoHex,
+.BintoOctal,
+.HextoBin,
+.HextoDec,
+.HextoOctal,
+.OctaltoBin,
+.OctaltoHex,
+.OctaltoDec {
+  display: flex;
+  width: 5cm;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 2cm;
+  border-color: black;
+  box-shadow: 4px 4px 5px rgb(74, 242, 248), -1px -1px 2px black;
+  border-radius: 10px;
+  margin: 1cm;
+  border-left-color: black;
+  text-decoration: none;
+  color: black;
+}
+.expandable-container {
+  border: 2px solid  black;
+  margin: 1cm;
+  border-radius: 10px;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.expandable-item {
+  border: 2px solid black;
+  margin: 0.5cm;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  background-color: rgb(190, 190, 190);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Collapsible__trigger.is-open svg {
+  transform: rotate(180deg);
 }
+.epochLabel{
+  font-size: medium;
+  font-weight: bold;
+  margin: 2px;
+}
+.eTime{
+  margin: 3px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 3cm;
+}
+.epTime{
+  margin: 3px;
+  border: 1.5px solid black;
+  border-radius: 5px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+}
+.op{
+  margin: 3px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+
+}
+.cTime{
+  margin: 4px;
+  font-size: small;
+}
+.convertBtn{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  width: 2cm;
+  height: 0.7cm;
+}
+/*Number base Converters */
+
+.textInput{
+  margin: 3px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  height: 1cm;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.convert-Btn{
+  background-color: black;
   color: white;
-}
+  border-radius: 5px;
+  width: 2cm;
+  height: 0.7cm;
+  margin: 5px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textOutput{
+  margin: 3px;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  height: 1cm;
+  align-items: center;
+  justify-content: center; 
 }

@@ -1,0 +1,11 @@
+.dMode{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start
+    
+}
+.DarkMode{
+    background-color: black;
+    border: 2px solid grey;
+}

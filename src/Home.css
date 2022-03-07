@@ -1,0 +1,107 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+/* .cardNames{
+    font-weight: bold;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.fcontainer {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid grey;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+.fitem{
+    width: 5cm;
+    height: 4cm;
+    margin: 1cm;
+    background-color: white;
+    border-color: black;
+    box-shadow: 5px 5px 10px yellow;
+    border-radius: 10px;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+} */
+.heading {
+  display: flex;
+  align-items: center;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.fcontainer {
+  margin: 15px;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Encode,
+.MD5Hash,
+.Base64,
+.SHA1,
+.SHA256,
+.SHA512,
+.IpAdress,
+.RGBHEX,
+.EpochTime,
+.Numberbase,
+.UnitConverter {
+  width: 5cm;
+  display: flex;
+  align-items: center;
+  background-color: white;
+
+  justify-content: center;
+  height: 4cm;
+  border-color: black;
+  box-shadow: 4px 4px 5px rgb(12, 255, 255), -1px -1px 2px black;
+  border-radius: 10px;
+  margin: 1cm;
+  border-left-color: black;
+  text-decoration: none;
+  color: black;
+}
+input:focus {
+  background-color: rgb(212, 209, 209);
+}
+
+.Encode :hover,
+.MD5Hash :hover,
+.Base64 :hover,
+.SHA1 :hover,
+.SHA256 :hover,
+.SHA512 :hover,
+.IpAdress :hover,
+.RGBHEX :hover,
+.EpochTime :hover,
+.Numberbase :hover,
+.UnitConverter :hover {
+  transform: scale(1.05);
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+
+  text-align: center;
+}
