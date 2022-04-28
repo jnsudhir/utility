@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Technologies Used
+### Tech stack
 ![React JS](https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png)
 ![JavaSrcipt](https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png)
 ![HTML](https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png)
