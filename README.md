@@ -73,3 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Technologies Used
 ![React JS](https://imgix.cosmicjs.com/f8f64f20-ded9-11e6-a508-5f784c3f9fc8-react.svg)
+![JavaSrcipt](https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png)
+![HTML](https://banner2.cleanpng.com/20180512/veq/kisspng-responsive-web-design-boilerplate-text-html-templa-5af68ec265a277.5299510915261078424163.jpg)
+![CSS](https://freepikpsd.com/file/2019/10/css3-logo-png-9-Transparent-Images.png)
+![NPM](https://cdn.freebiesupply.com/logos/thumbs/2x/npm-logo.png)
+
+
