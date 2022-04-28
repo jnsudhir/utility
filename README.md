@@ -72,10 +72,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### Technologies Used
-![React JS](https://imgix.cosmicjs.com/f8f64f20-ded9-11e6-a508-5f784c3f9fc8-react.svg)
+![React JS](https://seeklogo.com/images/R/react-logo-7B3CE81517-seeklogo.com.png)
 ![JavaSrcipt](https://seeklogo.com/images/J/javascript-js-logo-2949701702-seeklogo.com.png)
-![HTML](https://banner2.cleanpng.com/20180512/veq/kisspng-responsive-web-design-boilerplate-text-html-templa-5af68ec265a277.5299510915261078424163.jpg)
-![CSS](https://freepikpsd.com/file/2019/10/css3-logo-png-9-Transparent-Images.png)
-![NPM](https://cdn.freebiesupply.com/logos/thumbs/2x/npm-logo.png)
+![HTML](https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png)
+![CSS](https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png)
+![NPM](https://seeklogo.com/images/N/npm-node-package-manager-logo-DE93649ED1-seeklogo.com.png)
 
 
